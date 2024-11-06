@@ -1,0 +1,86 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #1E90FF; /* Blue background */
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #187bcd;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-metrics {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .metric {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .metric h2 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .metric p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .chart-container {
+    width: 300px;
+    margin: 10px;
+  }
+  
